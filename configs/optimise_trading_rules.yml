@@ -1,0 +1,34 @@
+st_dt: '2015-01-02' # '2006-01-03'
+ed_dt: '2020-11-20' # '2007-12-31'
+bt_dt:
+  xlc: ['09-19-2018', '12-31-2019']
+  xlre: ['01-06-2016', '12-31-2019']
+weighting_scheme : "equal_weighted" #holdings_weighted
+sl: -0.10
+transaction_cost: [0.0005, 0.0005]
+long_only: False
+prices_file_path:
+  xlf: "data/xlf/xlf_full_hist_2020_11_20.csv"
+  xlb: "data/xlb/xlb_full_hist_2020_11_22.csv"
+  xlc: "data/xlc/xlc_koyfin_20201122_080947527.csv"
+  xle: "data/xle/xle_koyfin_20201122_071247976.csv"
+  xli: "data/xli/xli_full_hist_2020_11_22.csv"
+  xlk: "data/xlk/xlk_full_hist_2020_11_22.csv"
+  xlp: "data/xlp/xlp_koyfin_20201122_080148730.csv"
+  xlre: "data/xlre/xlre_koyfin_20201122_082158807.csv"
+  xlu: "data/xlu/xlu_full_hist_2020_11_22.csv"
+  xlv: "data/xlv/xlv_koyfin_20201122_070447934.csv"
+  xly: "data/xly/xly_koyfin_20201122_073008738.csv"
+holdings_path:
+  xlf: "data/xlf/xlf_holdings_2020_11_18.csv"
+  xlb: "data/xlb/xlb_holdings_2020_11_22.xlsx"
+  xlc: "data/xlc/holdings-daily-us-en-xlc.xlsx"
+  xle: "data/xle/holdings-daily-us-en-xle.xlsx"
+  xli: "data/xli/xli_holdings_2020_11_22.xlsx"
+  xlk: "data/xlk/xlk_holdings_2020_11_22.xlsx"
+  xlp: "data/xlp/holdings-daily-us-en-xlp.xlsx"
+  xlre: "data/xlre/holdings-daily-us-en-xlre.xlsx"
+  xlu: "data/xlu/xlu_holdings_2020_11_22.xlsx"
+  xlv: "data/xlv/holdings-daily-us-en-xlv.xlsx"
+  xly: "data/xly/holdings-daily-us-en-xly.xlsx"
+full_mkt_data: "data/full_mkt_data/all_etf_comp.pkl"
